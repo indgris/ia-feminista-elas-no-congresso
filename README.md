@@ -89,9 +89,10 @@ Para avaliação da linha base (baseline), foram utilizados 2 modelos de zero-sh
 | [legal-bert-base-cased-ptbr](https://huggingface.co/dominguesm/legal-bert-base-cased-ptbr)                             | 0.75      | 0.63   | 0.66 |
 | [DeBERTina](tgsc/debertina-base-32k-vocab) | 0.82 | 0.74   | 0.75 |
 | [BERTimbau large](https://huggingface.co/neuralmind/bert-large-portuguese-cased/)                             | 0.82      | 0.74   | 0.75 |
-| [Congretimbau](https://huggingface.co/belisards/congretimbau)                          | 0.80      | 0.79   | 0.79 |
 | [Gemma-9b](https://huggingface.co/unsloth/gemma-2-9b-bnb-4bit)                                 | 0.70      | 0.70   | 0.69 |
 | [LLama3-8b](https://huggingface.co/unsloth/llama-3-8b-Instruct-bnb-4bit)                                | 0.66      | 0.61   | 0.61 |
+| [**Congretimbau**](https://huggingface.co/belisards/congretimbau)                          | **0.80**      | **0.79**   | **0.79** |
+
 
 O modelo com melhor performance foi adotado em produção e atingiu as seguintes métricas no conjunto de teste:
 
