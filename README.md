@@ -95,7 +95,7 @@ Para avaliação da linha base (baseline), foram utilizados 2 modelos de zero-sh
 | [Gemma-9b](https://huggingface.co/unsloth/gemma-2-9b-bnb-4bit)                                 | 0.70      | 0.70   | 0.69 |
 | [LLama3-8b](https://huggingface.co/unsloth/llama-3-8b-Instruct-bnb-4bit)                                | 0.66      | 0.61   | 0.61 |
 
-O modelo com melhor performance (fine-tuning do Congretimbau) foi adotado em produção e atingiu as seguintes métricas no conjunto de teste:
+O modelo com melhor performance foi adotado em produção e atingiu as seguintes métricas no conjunto de teste:
 
 
 ## Modelo de classificação dos projetos
