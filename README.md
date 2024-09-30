@@ -24,8 +24,6 @@ Os trabalhos listados propõe diferentes categorizações em documentos do âmbi
 | [verBERT: Automating Brazilian Case Law Document Multi-label Categorization Using BERT](https://sol.sbc.org.br/index.php/stil/article/view/17803)                         | 38%      | 71%      | 66%    |
 | [Classificação de documentos jurídicos utilizando a arquitetura Transformer: uma análise comparativa com algoritmos tradicionais de Machine Learning e ChatGPT](https://ojs.brazilianjournals.com.br/ojs/index.php/BRJD/article/view/60747) | 62%      | 62%      | 62%    |
 
-
-
 # Dados de treinamento
 
 Os dados utilizados para o treinamento dos modelos consistem em **resumos de projetos de lei** em tramitação no Congresso Nacional. Esses dados foram **pré-processados e rotulados manualmente**, servindo de base para o fine-tuning dos classificadores. Os dados rotulados estão disponíveis como um dataset no HuggingFace [`azmina/ementas_congresso`](https://huggingface.co/datasets/azmina/ementas_congresso). Ao todo, o dataset contém 1.399 exemplos de projeto de lei, sendo 112 deles reservados para validação (e posteriormente incorporados aos dados de treinamento após a definição do modelo final) e 168 reservados para teste, que não foram usados em nenhum momento durante o treinamento.
@@ -79,7 +77,7 @@ Os temas utilizados para classificação dos projetos de lei são:
 - feminicidio: assassinato de mulheres motivado por questões de gênero, ou seja, por ela ser do sexo feminino. Inclui projetos para prevenir, combater e punir o feminicídio, como políticas para a prevenção, investigação e julgamento de crimes de feminicídio, bem como medidas de apoio e proteção às vítimas de violência de gênero.
 
 
-### Avaliação de modelos
+### Avaliação
 
 Para avaliação da linha base (baseline), foram utilizados 2 modelos de zero-shot e um modelo Naive-Bayes. Para a avaliação final, foram utilizados diversos modelos baseados na arquitetura Transformer, tanto da família BERT quanto aplicações de modelos generativos.
 
@@ -96,6 +94,13 @@ Para avaliação da linha base (baseline), foram utilizados 2 modelos de zero-sh
 | [LLama3-8b](https://huggingface.co/unsloth/llama-3-8b-Instruct-bnb-4bit)                                | 0.66      | 0.61   | 0.61 |
 
 O modelo com melhor performance foi adotado em produção e atingiu as seguintes métricas no conjunto de teste:
+
+
+### Versões
+- Transformers 4.45.1
+- Pytorch 2.4.1+cu121
+- Datasets 3.0.1
+- Tokenizers 0.20.0
 
 
 ## Modelo de classificação dos projetos
