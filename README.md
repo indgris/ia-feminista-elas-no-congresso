@@ -125,7 +125,7 @@ O segundo modelo tem como objetivo identificar propostas que são desfavoráveis
 
 ## Avaliação
 
-O modelo atingiu as seguintes métricas no [dataset de avaliação]():
+O modelo atingiu as seguintes métricas no [dataset de avaliação](https://huggingface.co/datasets/azmina/ementas_anotadas_inteiroteor):
 
 |               | Precision | Recall | F1-Score | Support |
 |---------------|-----------|--------|----------|---------|
