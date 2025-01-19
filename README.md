@@ -28,7 +28,7 @@ Os trabalhos listados propõe diferentes categorizações em documentos do âmbi
 
 Os dados utilizados para o treinamento dos modelos consistem em **resumos de projetos de lei** em tramitação no Congresso Nacional. Esses dados foram **pré-processados e rotulados manualmente**, servindo de base para o fine-tuning dos classificadores. Os dados rotulados estão disponíveis como um dataset no HuggingFace [`azmina/ementas_congresso`](https://huggingface.co/datasets/azmina/ementas_congresso). Ao todo, o dataset contém 1.399 exemplos de projeto de lei, sendo 112 deles reservados para validação (e posteriormente incorporados aos dados de treinamento após a definição do modelo final) e 168 reservados para teste, que não foram usados em nenhum momento durante o treinamento.
 
-# Arquitetura do Projeto
+# Etapas do projeto
 
 1. **Pré-processamento de Dados**: Scripts de limpeza e preparação de dados dos projetos de lei.
 2. **Fine-Tuning**: Ajuste fino dos modelos com base nos dados rotulados manualmente.
@@ -96,14 +96,58 @@ Para avaliação da linha base (baseline), foram utilizados 2 modelos de zero-sh
 
 O modelo com melhor performance foi adotado em produção e atingiu as seguintes métricas no conjunto de teste:
 
+|                               | Precision | Recall | F1-Score | Support |
+|-------------------------------|-----------|--------|----------|---------|
+| Dignidade Sexual              | 0.94      | 0.88   | 0.91     | 17      |
+| Direitos Sexuais e Reprodutivos| 0.89      | 0.84   | 0.86     | 19      |
+| Direitos Sociais              | 0.61      | 0.58   | 0.59     | 19      |
+| Economia                      | 0.78      | 0.50   | 0.61     | 14      |
+| Feminicidio                   | 0.67      | 0.80   | 0.73     | 5       |
+| Genero                        | 0.81      | 1.00   | 0.90     | 13      |
+| Maternidade                   | 0.70      | 0.74   | 0.72     | 19      |
+| Politica                      | 1.00      | 0.88   | 0.93     | 8       |
+| Violencia Contra a Mulher     | 0.86      | 0.93   | 0.89     | 54      |
+| **Accuracy**                  |           |        | 0.82     | 168     |
+| **Macro Avg**                 | 0.81      | 0.79   | 0.79     | 168     |
+| **Weighted Avg**              | 0.82      | 0.82   | 0.81     | 168     |
 
-### Versões
+
+
+## Modelo de avaliação das posições dos projetos
+
+O segundo modelo tem como objetivo identificar propostas que são desfavoráveis ao direito das mulheres, a partir de um conjunto de dados previamente rotulado pela equipe AzMina e organizações parceiras. O modelo foi treinado a fim de otimizar a identificação de projetos da classe positiva (desfavoráveis aos direitos das mulheres)
+
+## Definição dos temas:
+
+- **Favorável**: Classe majoritária nos dados de treinamento. Representa as propostas que são favoráveis ao direito das mulheres, que promovem a igualdade de gênero, garantindo a proteção dos direitos das mulheres e a garantia de seus direitos fundamentais.
+
+- **Desfavorável**: Classe minoritária nos dados de treinamento. Representa as propostas que são desfavoráveis ao direito das mulheres.
+
+## Avaliação
+
+O modelo atingiu as seguintes métricas no [dataset de avaliação]():
+
+|               | Precision | Recall | F1-Score | Support |
+|---------------|-----------|--------|----------|---------|
+| Class 0       | 0.94      | 0.53   | 0.67     | 114     |
+| Class 1       | 0.35      | 0.88   | 0.50     | 33      |
+| Accuracy      |           |        | 0.61     | 147     |
+| Macro Avg     | 0.64      | 0.70   | 0.59     | 147     |
+| Weighted Avg  | 0.81      | 0.61   | 0.64     | 147     |
+
+Para uma performance entre as classes mais equilibrada, é possível ajustar o limiar da classificação binária, a partir da análise da curva ROC (disponível no [notebook de avaliação](modelos_avaliacao/avaliacao.ipynb)), chegando aos seguintes resultados:
+
+|               | Precision | Recall | F1-Score | Support |
+|---------------|-----------|--------|----------|---------|
+| Class 0       | 0.91      | 0.86   | 0.88     | 114     |
+| Class 1       | 0.59      | 0.70   | 0.64     | 33      |
+| Accuracy      |           |        | 0.82     | 147     |
+| Macro Avg     | 0.75      | 0.78   | 0.76     | 147     |
+| Weighted Avg  | 0.84      | 0.82   | 0.83     | 147     |
+
+
+## Versões
 - Transformers 4.45.1
 - Pytorch 2.4.1+cu121
 - Datasets 3.0.1
 - Tokenizers 0.20.0
-
-
-## Modelo de classificação dos projetos
-
-O segundo modelo tem como objetivo definir se a proposta é favorável ou não ao direito das mulheres.
