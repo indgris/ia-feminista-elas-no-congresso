@@ -241,7 +241,7 @@ Modelos externos → **licença do provedor**, não redistribuídos aqui
 
 ### Contribua
 Correções, melhorias ou ideias são muito bem-vindas!  
-Você pode contribuir diretamente pelo GitHub abrindo uma [issue](https://github.com/azmina/ia-feminista-congresso/issues) ou enviando um [pull request](https://github.com/azmina/ia-feminista-congresso/pulls).
+Você pode contribuir diretamente pelo GitHub abrindo uma [issue](https://github.com/institutoazmina/ia-feminista-elas-no-congresso/issues) ou enviando um [pull request](https://github.com/institutoazmina/ia-feminista-elas-no-congresso/pulls).
 
 
 Ou então, fale com a gente: tecnologia@azmina.com.br 
