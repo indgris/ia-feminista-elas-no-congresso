@@ -111,7 +111,7 @@ Os temas utilizados para classificação dos projetos de lei são:
 
 - **direitos sociais**: aqueles que garantem condições mínimas de vida digna a todos os indivíduos, incluindo acesso à educação, saúde, trabalho, moradia e seguridade social. Esses direitos visam promover a igualdade e a justiça social, assegurando que todos tenham oportunidades iguais para desenvolver seu potencial humano.
 
-- maternidade: é a qualidade ou estado de ser mãe, envolvendo não somente o ato biológico da gestação e do parto, mas também o cuidado, educação e proteção oferecidos à criança. Inclui iniciativas sobre licença-maternidade, salário-maternidade e adoção, proteção no ambiente de trabalho, acesso a creches, políticas de apoio à amamentação e assistência a mães em situação de vulnerabilidade.
+- **maternidade**: é a qualidade ou estado de ser mãe, envolvendo não somente o ato biológico da gestação e do parto, mas também o cuidado, educação e proteção oferecidos à criança. Inclui iniciativas sobre licença-maternidade, salário-maternidade e adoção, proteção no ambiente de trabalho, acesso a creches, políticas de apoio à amamentação e assistência a mães em situação de vulnerabilidade.
 
 - feminicídio: assassinato de mulheres motivado por questões de gênero, ou seja, por ela ser do sexo feminino. Inclui projetos para prevenir, combater e punir o feminicídio, como políticas para a prevenção, investigação e julgamento de crimes de feminicídio, bem como medidas de apoio e proteção às vítimas de violência de gênero.
 
