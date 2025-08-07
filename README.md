@@ -109,7 +109,7 @@ Os temas utilizados para classificação dos projetos de lei são:
 
 - **direitos sexuais e reprodutivos**: conjunto de direitos humanos que garantem a todos os indivíduos liberdade e capacidade para decidir sobre sua vida sexual e reprodutiva. Isso inclui o direito à informação, à educação, ao acesso a serviços de saúde reprodutiva, ao aborto, ao planejamento familiar, assistência médica durante a gravidez, parto e pós-parto e ao livre exercício da sexualidade.
 
-- direitos sociais: aqueles que garantem condições mínimas de vida digna a todos os indivíduos, incluindo acesso à educação, saúde, trabalho, moradia e seguridade social. Esses direitos visam promover a igualdade e a justiça social, assegurando que todos tenham oportunidades iguais para desenvolver seu potencial humano.
+- **direitos sociais**: aqueles que garantem condições mínimas de vida digna a todos os indivíduos, incluindo acesso à educação, saúde, trabalho, moradia e seguridade social. Esses direitos visam promover a igualdade e a justiça social, assegurando que todos tenham oportunidades iguais para desenvolver seu potencial humano.
 
 - maternidade: é a qualidade ou estado de ser mãe, envolvendo não somente o ato biológico da gestação e do parto, mas também o cuidado, educação e proteção oferecidos à criança. Inclui iniciativas sobre licença-maternidade, salário-maternidade e adoção, proteção no ambiente de trabalho, acesso a creches, políticas de apoio à amamentação e assistência a mães em situação de vulnerabilidade.
 
