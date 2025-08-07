@@ -107,7 +107,7 @@ Os temas utilizados para classificação dos projetos de lei são:
 
 - política: atividade relacionada à governança do Estado nos níveis municipal, estadual e federal, e às relações de poder entre indivíduos ou grupos. Envolve proposições legislativas voltadas à participação política das mulheres e à promoção da equidade de gênero na esfera política. Incluem propostas para aumentar a representatividade feminina em cargos eletivos e de liderança, além de garantir a participação em processos de tomada de decisão e elaboração de políticas públicas.
 
-- direitos sexuais e reprodutivos: conjunto de direitos humanos que garantem a todos os indivíduos liberdade e capacidade para decidir sobre sua vida sexual e reprodutiva. Isso inclui o direito à informação, à educação, ao acesso a serviços de saúde reprodutiva, ao aborto, ao planejamento familiar, assistência médica durante a gravidez, parto e pós-parto e ao livre exercício da sexualidade.
+- **direitos sexuais e reprodutivos**: conjunto de direitos humanos que garantem a todos os indivíduos liberdade e capacidade para decidir sobre sua vida sexual e reprodutiva. Isso inclui o direito à informação, à educação, ao acesso a serviços de saúde reprodutiva, ao aborto, ao planejamento familiar, assistência médica durante a gravidez, parto e pós-parto e ao livre exercício da sexualidade.
 
 - direitos sociais: aqueles que garantem condições mínimas de vida digna a todos os indivíduos, incluindo acesso à educação, saúde, trabalho, moradia e seguridade social. Esses direitos visam promover a igualdade e a justiça social, assegurando que todos tenham oportunidades iguais para desenvolver seu potencial humano.
 
