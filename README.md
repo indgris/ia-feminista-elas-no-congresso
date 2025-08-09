@@ -33,7 +33,7 @@ A solução avaliou a performance de diversos modelos de linguagem pré-treinado
 
 ## ⚙️ Como Funciona
 
-Como parte de seu monitoramento legislativo, a equipe do [Instituto AzMina](https://azmina.com.br/) usa o [Bot do Elas no Congresso](https://github.com/institutoazmina/elasnocongressobot) para coletar as proposições de interesse por meio de palavras-chave. Mas até a edição de 2024, as propostas eram revisadas e rotuladas pela equipe e instituições parceiras com dois objetivos:
+Como parte de seu monitoramento legislativo, a equipe do [Instituto AzMina](https://institutoazmina.org.br/) usa o [Bot do Elas no Congresso](https://github.com/institutoazmina/elasnocongressobot) para coletar as proposições de interesse por meio de palavras-chave. Mas até a edição de 2024, as propostas eram revisadas e rotuladas pela equipe e instituições parceiras com dois objetivos:
 
 - **Tema**: definir o tema da proposta a partir do resumo (ementa) do PL, designando uma das categorias definidas pela contratante;
 - **Avaliação**: definir se a proposta é favorável ou não ao direito das mulheres, a partir de uma análise da ementa e do inteiro teor do PL.
